@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{0d65c338-159f-40b6-8b67-552695e3d462}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{c62a4fa2-41da-4072-8e72-732e2c0f1619}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InGame">
+      <UniqueIdentifier>{6e29444f-4a5e-4629-b97b-b09ab12653b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{30e33d31-68e3-48f0-be52-58eb5194e51a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GhostAlgorithm">
+      <UniqueIdentifier>{9085ca8c-f2ba-4b3c-a942-548c1cf3d7f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameTimer">
+      <UniqueIdentifier>{09918164-6790-48f5-a3c0-8c6971b6e54b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Hydra_Engine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Pacman.cpp">
+      <Filter>InGame</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>InGame</Filter>
+    </ClCompile>
+    <ClCompile Include="GameApp.cpp">
+      <Filter>InGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Hydra_Time.cpp">
+      <Filter>GameTimer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Hydra_Engine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Pacman.h">
+      <Filter>InGame</Filter>
+    </ClInclude>
+    <ClInclude Include="new_conio.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>InGame</Filter>
+    </ClInclude>
+    <ClInclude Include="GameApp.h">
+      <Filter>InGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Hydra_Time.h">
+      <Filter>GameTimer</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
